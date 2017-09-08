@@ -1,5 +1,8 @@
-package com.aruna.example.SpringMVC.domain;
+package com.example.domain;
 
+import org.springframework.stereotype.*;
+
+@Component
 public class Product {
 
 	String name;
